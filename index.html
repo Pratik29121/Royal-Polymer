@@ -58,6 +58,18 @@
   </style>
 </head>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const navToggler = document.querySelector("[data-nav-toggler]");
+      const navbar = document.querySelector("[data-navbar]");
+  
+      navToggler.addEventListener("click", function () {
+          navbar.classList.toggle("active");
+          navToggler.classList.toggle("active");
+      });
+  });
+  </script>
+
 <body id="top">
 
   <header class="header" data-header>
@@ -677,3 +689,5 @@
       }
     </style>
   </footer>
+</body>
+</html>
