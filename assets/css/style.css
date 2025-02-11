@@ -1,9 +1,10 @@
+
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2025 Pratik Suryawanshi
  */
 
 
@@ -249,8 +250,6 @@ body {
   #HEADER
 \*-----------------------------------*/
 
-
-
 .header {
   position: fixed;
   top: 0;
@@ -397,6 +396,8 @@ body {
 .service-card .card-title { margin-block: 20px 8px; }
 
 .service-card .card-text { font-size: var(--fs-6); }
+
+
 
 
 
